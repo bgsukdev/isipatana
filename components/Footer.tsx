@@ -43,7 +43,9 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://web.facebook.com/profile.php?id=100095261362170"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-[var(--accent-gold)] hover:text-[var(--primary-blue)] transition-all"
                 aria-label="Facebook"
               >
@@ -209,7 +211,7 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-[var(--accent-gold)] transition-colors text-sm leading-relaxed"
                   >
-                    Isipathana College,
+                    Jayalal Wilwaraarachchi ,
                   </a>
                   <a 
                     href="https://maps.google.com/?q=Isipathana+College+Colombo+05" 
@@ -217,7 +219,7 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-[var(--accent-gold)] transition-colors text-sm leading-relaxed"
                   >
-                    Colombo 05, Sri Lanka
+                    45, Heming Road, Edgware
                   </a>
                 </div>
               </div>
@@ -240,10 +242,19 @@ export default function Footer() {
                 </div>
                 <div>
                   <a
-                    href="tel:+94112123456"
+                    href="tel:+07947947436"
                     className="text-gray-400 hover:text-[var(--accent-gold)] transition-colors text-sm"
                   >
-                    +94 112 2 123 456
+                   +079 47947436  
+                  </a>
+                  <br />
+                   <a
+                    href="tel:+07935694171"
+                    className="text-gray-400 hover:text-[var(--accent-gold)] transition-colors text-sm"
+                  >
+                  
+                   +079 35694171
+                   
                   </a>
                 </div>
               </div>
