@@ -4,11 +4,11 @@ import PageHeader from '@/components/PageHeader';
 
 export default function CommitteePage() {
   const officeBearers = [
-    { title: " President", name: "Mr.Darshana Udawaththa (Principal)", image: "/Principal of the School.jpg" },
-    { title: "Senior Vice President", name: "Mr. Lasantha Gunawardana", image: "" },
-    { title: "Vice President - Finance", name: "Mr. Roshan Maddumage", image: "" },
-    { title: "Vice President - Sports", name: "Mr. Anura Gunasinghe", image: "" },
-    { title: "Vice President - Education", name: "Mr. Asiri Gamage", image: "" },
+    { title: " President", name: "Mr.Jayalal Wilwaraarachchi", image: "" },
+    { title: "Secretary", name: "Mr. Matheen Khalid ", image: "" },
+    { title: "Vice President - Finance", name: "Mr.  Maddumage", image: "" },
+    { title: "Vice President - Sports", name: "Mr.  Gunasinghe", image: "" },
+    { title: "Vice President - Education", name: "Mr.  Gamage", image: "" },
     { title: "Vice President - Affiliated Associations", name: "Mr. Chandra Sri Wickramasinghe", image: "" },
     { title: "Joint Secretary", name: "Mr. Dushan Wickramasinghe", image: "" },
     { title: "Joint Secretary", name: "Mr. Janithya Sampath", image: "" },
