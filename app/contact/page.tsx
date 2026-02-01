@@ -5,7 +5,7 @@ export default function ContactPage() {
   const contactMethods = [
     {
       title: "Our Secretariat",
-      details: ["Isipathana College OBA", "Isipathana Mawatha", "Colombo 05, Sri Lanka"],
+      details: ["Jayalal Wilwaraarachchi,", "45, Heming Road ", "Edgware"],
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
@@ -15,7 +15,7 @@ export default function ContactPage() {
     },
     {
       title: "Contact Numbers",
-      details: ["+94 11 2 581 332", "+94 11 2 505 528"],
+      details: ["+079 47947436","+079 35694171"],
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -25,7 +25,7 @@ export default function ContactPage() {
     },
     {
       title: "Email Addresses",
-      details: ["info@iobauk.org", "secretary@iobauk.org"],
+      details: ["info@iobauk.org"],
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -43,6 +43,8 @@ export default function ContactPage() {
       />
 
       {/* Info Cards */}
+      <br />
+      <br />
       <section className="relative -mt-16 z-10 pb-20">
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -113,7 +115,7 @@ export default function ContactPage() {
                      <div className="space-y-10 flex-1">
                         <div>
                            <p className="text-gray-400 font-bold uppercase text-xs tracking-tighter mb-2">Primary Location</p>
-                           <p className="text-xl font-medium leading-relaxed">Isipathana College premises,<br />Isipathana Mawatha,<br />Colombo 00500, Sri Lanka.</p>
+                           <p className="text-xl font-medium leading-relaxed">Jayalal Wilwaraarachchi,<br />45, Heming Road, Edgware</p>
                         </div>
                         <div>
                            <p className="text-gray-400 font-bold uppercase text-xs tracking-tighter mb-2">Operating Hours</p>
@@ -121,7 +123,7 @@ export default function ContactPage() {
                         </div>
                      </div>
                      <div className="mt-12 p-8 bg-white/5 rounded-3xl border border-white/10">
-                        <p className="text-sm italic font-medium text-gray-300">"The OBA office is located near the main entrance of the college for easy access to all visiting alumni."</p>
+                        <p className="text-sm italic font-medium text-gray-300">"The OBA office is located near the London for easy access to all visiting alumni."</p>
                      </div>
                   </div>
                </div>
@@ -130,19 +132,7 @@ export default function ContactPage() {
          </div>
       </section>
 
-      {/* Social Banner */}
-      <section className="py-20 bg-white">
-         <div className="container-custom text-center">
-            <h2 className="text-2xl font-black text-[var(--primary-blue)] mb-8 uppercase tracking-widest">Connect Digitally</h2>
-            <div className="flex justify-center gap-6">
-               {['Facebook', 'Twitter', 'Instagram', 'LinkedIn'].map((platform, idx) => (
-                  <a key={idx} href="#" className="px-8 py-4 bg-[var(--gray-50)] rounded-2xl font-black text-[var(--primary-blue)] border-2 border-transparent hover:border-[var(--accent-gold)] hover:bg-white transition-all shadow-sm">
-                     {platform}
-                  </a>
-               ))}
-            </div>
-         </div>
-      </section>
+      
     </div>
   );
 }
